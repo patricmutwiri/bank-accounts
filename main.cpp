@@ -131,10 +131,6 @@ int main() {
     cout<<"\nAfter interest credit : "<<acc.getBalance();
 
 
-    return 0;
-
-
-
     cout<<"\nBalance ("<<newBal<<") + Interest ("<<interestAmt<<") : "<<initBal;
     cout<<"\nMinus fee charges "<<feeAmount<<" should come to "<<initBal-feeAmount;
     cout << "\n\n:: Credit :: (of amount "<<interestAmt<<")";
